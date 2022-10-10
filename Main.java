@@ -21,14 +21,14 @@ public class Main {
                 boolean t = scanner.nextBoolean();
                 h = new Horse(hn, w, t);
                 s.horses.add(h);
-            }//testing goodest 4
+            }
             else{
                 break;
             }
         }while(true);
 
         for(int i = 0; i < s.horses.size(); i++) {
-            System.out.println("Horse #" + i+1 + " " + s.horses.get(i));
+            System.out.println("Horse #" + (i+1) + " " + s.horses.get(i));
         }
     }
 }

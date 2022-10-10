@@ -9,8 +9,7 @@ public class Horse extends Stable{
         isTame = tame;
     }
 
-    //String name, double weight, boolean tame
     public String toString(){
-        return ( "Name: "+this.name + "Weight: "+this.weight + "Tame: "+this.isTame);
+        return ( "Name: "+this.name + " Weight: "+this.weight + " Tame: "+this.isTame);
     }
 }
